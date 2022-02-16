@@ -9,6 +9,8 @@ A library of popular algorithms for technical interviews.
     2. Monotonic Array
     3. Search in Sorted Matrix
     4. Three Number Sum
+    5. Array of Products
+    6. Spiral Traverse
 
 2. String
     1. Longest Palindrome Substring
