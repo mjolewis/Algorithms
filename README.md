@@ -12,6 +12,8 @@ A library of popular algorithms for technical interviews.
    5. Array of Products
    6. Spiral Traverse
    7. First Duplicate Value
+   8. Smallest Difference
+   9. Move Element To End
 
 2. String
    1. Longest Palindrome Substring
