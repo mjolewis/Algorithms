@@ -18,15 +18,4 @@ public class GroupAnagrams {
         }
         return new ArrayList<>(anagrams.values());
     }
-
-    public static void main(String[] args) {
-        List<String> words = new ArrayList<>(Arrays.asList("yo", "act", "flop", "tac", "foo", "cat", "oy", "olfp"));
-        System.out.println(GroupAnagrams.groupAnagrams(words));
-
-        words = new ArrayList<>(Arrays.asList("abc", "dabd", "bca", "cab", "ddba"));
-        System.out.println(GroupAnagrams.groupAnagrams(words));
-
-        words = new ArrayList<>();
-        System.out.println(GroupAnagrams.groupAnagrams(words));
-    }
 }
