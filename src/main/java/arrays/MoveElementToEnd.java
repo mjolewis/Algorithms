@@ -27,14 +27,4 @@ public class MoveElementToEnd {
         array.set(rightIdx, toMove);
         array.set(leftIdx, temp);
     }
-
-    public static void main(String[] args) {
-        List<Integer> array = Arrays.asList(2, 1, 2, 2, 2, 3, 4, 2);
-        int toMove = 2;
-        System.out.println(MoveElementToEnd.moveElementToEnd(array, toMove).toString());
-
-        array = Arrays.asList(1, 2, 4, 5, 6);
-        toMove = 3;
-        System.out.println(MoveElementToEnd.moveElementToEnd(array, toMove).toString());
-    }
 }

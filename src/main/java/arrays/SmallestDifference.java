@@ -33,14 +33,4 @@ public class SmallestDifference {
         }
         return smallestPair;
     }
-
-    public static void main(String[] args) {
-        int[] arrayOne = new int[] {-1, 5, 10, 20, 28, 3};
-        int[] arrayTwo = new int[] {26, 134, 135, 15, 17};
-        System.out.println(Arrays.toString(SmallestDifference.smallestDifference(arrayOne, arrayTwo)));
-
-        arrayOne = new int[] {10, 0, 20, 25};
-        arrayTwo = new int[] {1005, 1006, 1014, 1032, 1031};
-        System.out.println(Arrays.toString(SmallestDifference.smallestDifference(arrayOne, arrayTwo)));
-    }
 }

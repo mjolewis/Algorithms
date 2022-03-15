@@ -31,11 +31,4 @@ public class ThreeNumberSum {
 
         return triplets;
     }
-
-    public static void main(String[] args) {
-        int[] array = new int[] {12, 3, 1, 2, -6, 5, -8, 6};
-        int targetSum = 0;
-        List<Integer[]> result = ThreeNumberSum.threeNumberSum(array, targetSum);
-        result.forEach(e -> System.out.println(Arrays.toString(e)));
-    }
 }
