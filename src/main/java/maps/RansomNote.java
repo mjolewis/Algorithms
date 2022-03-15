@@ -22,18 +22,4 @@ public class RansomNote {
         }
         return true;
     }
-
-    public static void main(String[] args) {
-        String ransomNote = "a";
-        String magazine = "b";
-        System.out.println(RansomNote.canConstruct(ransomNote, magazine));
-
-        ransomNote = "aa";
-        magazine = "ab";
-        System.out.println(RansomNote.canConstruct(ransomNote, magazine));
-
-        ransomNote = "aa";
-        magazine = "aab";
-        System.out.println(RansomNote.canConstruct(ransomNote, magazine));
-    }
 }

@@ -20,12 +20,4 @@ public class FirstNonRepeatingCharacter {
         }
         return -1;
     }
-
-    public static void main(String[] args) {
-        String word = "abcdcaf";
-        System.out.println(FirstNonRepeatingCharacter.firstNonRepeatingCharacter(word));
-
-        word = "faadabcbbebdf";
-        System.out.println(FirstNonRepeatingCharacter.firstNonRepeatingCharacter(word));
-    }
 }
