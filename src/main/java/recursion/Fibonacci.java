@@ -13,18 +13,4 @@ public class Fibonacci {
         }
         return next;
     }
-
-    public static void main(String[] args) {
-        int n = 6;
-        System.out.println(Fibonacci.getNthFib(n));
-
-        n = 1;
-        System.out.println(Fibonacci.getNthFib(n));
-
-        n = 2;
-        System.out.println(Fibonacci.getNthFib(n));
-
-        n = 4;
-        System.out.println(Fibonacci.getNthFib(n));
-    }
 }

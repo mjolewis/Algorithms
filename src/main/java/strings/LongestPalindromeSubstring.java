@@ -23,10 +23,4 @@ public class LongestPalindromeSubstring {
         }
         return new int[] {++leftIdx, rightIdx};
     }
-
-    public static void main(String[] args) {
-        System.out.println(LongestPalindromeSubstring.longestPalindromicSubstring("abaxyzzyxf"));
-        System.out.println(LongestPalindromeSubstring.longestPalindromicSubstring("a"));
-        System.out.println(LongestPalindromeSubstring.longestPalindromicSubstring("it's highnoon"));
-    }
 }

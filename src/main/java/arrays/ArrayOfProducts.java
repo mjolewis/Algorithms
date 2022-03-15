@@ -19,15 +19,4 @@ public class ArrayOfProducts {
         }
         return products;
     }
-
-    public static void main(String[] args) {
-        int[] array = new int[] {5, 1, 4, 2};
-        System.out.println(Arrays.toString(ArrayOfProducts.arrayOfProducts(array)));
-
-        array = new int[] {1, 8, 6, 2, 4};
-        System.out.println(Arrays.toString(ArrayOfProducts.arrayOfProducts(array)));
-
-        array = new int[] {-5, 2, -4, 14, -6};
-        System.out.println(Arrays.toString(ArrayOfProducts.arrayOfProducts(array)));
-    }
 }

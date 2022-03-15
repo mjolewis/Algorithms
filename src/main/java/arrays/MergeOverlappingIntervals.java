@@ -34,31 +34,4 @@ public class MergeOverlappingIntervals {
         }
         return mergedIntervals.toArray(new int[mergedIntervals.size()][2]);
     }
-
-    public static void main(String[] args) {
-        int[][] intervals = new int[][] {
-                {1, 2},
-                {3, 5},
-                {4, 7},
-                {6, 8},
-                {9, 10}};
-
-        System.out.println(Arrays.deepToString(MergeOverlappingIntervals.mergeOverlappingIntervals(intervals)));
-
-        intervals = new int[][] {
-                {89, 90},
-                {-10, 20},
-                {-50, 0},
-                {70, 90},
-                {90, 91},
-                {90, 95}};
-
-        System.out.println(Arrays.deepToString(MergeOverlappingIntervals.mergeOverlappingIntervals(intervals)));
-
-        intervals = new int[][] {
-                {1, 22},
-                {-20, 30}};
-
-        System.out.println(Arrays.deepToString(MergeOverlappingIntervals.mergeOverlappingIntervals(intervals)));
-    }
 }

@@ -14,15 +14,4 @@ public class FirstDuplicateValue {
         }
         return -1;
     }
-
-    public static void main(String[] args) {
-        int[] array = new int[] {2, 1, 5, 2, 3, 3, 4};
-        System.out.println(FirstDuplicateValue.firstDuplicateValue(array));
-
-        array = new int[] {2, 1, 5, 3, 3, 2, 4};
-        System.out.println(FirstDuplicateValue.firstDuplicateValue(array));
-
-        array = new int[] {1, 1, 2, 3, 3, 2, 2};
-        System.out.println(FirstDuplicateValue.firstDuplicateValue(array));
-    }
 }

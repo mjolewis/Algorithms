@@ -2,7 +2,7 @@ package graphs;
 
 public class NumberOfIslands {
 
-    public int numIslands(char[][] islandGrid) {
+    public static int numIslands(char[][] islandGrid) {
         if (islandGrid.length == 0) return 0;
 
         int rows = islandGrid.length;
@@ -20,7 +20,7 @@ public class NumberOfIslands {
         return numberOfIslands;
     }
 
-    public void DFS(char[][] islandGrid, int row, int column) {
+    public static void DFS(char[][] islandGrid, int row, int column) {
 
         int rows = islandGrid.length;
         int columns = islandGrid[0].length;
@@ -34,31 +34,5 @@ public class NumberOfIslands {
         DFS(islandGrid, row + 1, column); // Look right
         DFS(islandGrid, row, column - 1); // Look up
         DFS(islandGrid, row, column + 1); // Look down
-    }
-
-    public static void main(String[] args) {
-
-        char [][] islandGrid = new char[][] {
-                {'1', '1', '1', '1', '0'},
-                {'1', '1', '0', '1', '0'},
-                {'1', '1', '0', '1', '0'},
-                {'1', '1', '0', '0', '0'},
-                {'0', '0', '0', '0', '0'}};
-        NumberOfIslands noOfIslands = new NumberOfIslands();
-        System.out.println("No of Islands: " + noOfIslands.numIslands(islandGrid));
-
-        islandGrid = new char[][] {
-                {'1', '1', '0', '0', '0'},
-                {'1', '1', '0', '0', '0'},
-                {'0', '0', '1', '0', '0'},
-                {'0', '0', '0', '1', '1'}};
-        System.out.println("No of Islands: " + noOfIslands.numIslands(islandGrid));
-
-        islandGrid = new char[][] {
-                {'1','1','1','1','0'},
-                {'1','1','0','1','0'},
-                {'1','1','0','0','1'},
-                {'0','0','0','1','1'}};
-        System.out.println("No of Islands: " + noOfIslands.numIslands(islandGrid));
     }
 }

@@ -31,4 +31,4 @@ A library of popular algorithms for technical interviews.
 
 # Usage and Limitations
 
-Each algorithm contains a main method that can be immediately used for testing.
+Each algorithm contains a corresponding test class that demonstrates algorithmic sufficiency.
